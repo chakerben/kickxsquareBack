@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_latest_blogs",
+  "info": {
+    "name": "latest blog",
+    "icon": "blog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "numberOfArticles": {
+      "type": "biginteger",
+      "required": true
+    },
+    "linkLabel": {
+      "type": "string",
+      "default": "View All News Articles"
+    }
+  }
+}

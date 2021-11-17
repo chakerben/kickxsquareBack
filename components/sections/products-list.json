@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_products_lists",
+  "info": {
+    "name": "products list",
+    "icon": "biohazard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "PopularBrands",
+        "MostPopularSneakers",
+        "RecentlyViewed"
+      ],
+      "required": true,
+      "default": "PopularBrands"
+    },
+    "numberOfProducts": {
+      "type": "biginteger",
+      "required": true
+    },
+    "labelLink": {
+      "type": "string",
+      "default": "see All"
+    }
+  }
+}
