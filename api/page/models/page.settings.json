@@ -37,7 +37,7 @@
     },
     "contentSections": {
       "type": "dynamiczone",
-      "required": true,
+      "required": false,
       "components": [
         "sections.hero",
         "sections.bottom-actions",
