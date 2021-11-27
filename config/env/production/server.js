@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
   url: env("RENDER_EXTERNAL_URL"),
   admin: {
     auth: {
-      secret: env("ADMIN_JWT_SECRET"),
+      secret: env("ADMIN_JWT_SECRET", "0r2Pkk6gQtPOVxXeRLl9gICVtEyQBql6"),
     },
   },
 });
