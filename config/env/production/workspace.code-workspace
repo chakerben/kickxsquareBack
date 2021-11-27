@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../my-site"
+		},
+		{
+			"path": "../../../../kickXsquare"
+		}
+	],
+	"settings": {
+		"editor.formatOnSaveMode": "modifications"
+	}
+}
